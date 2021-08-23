@@ -5,3 +5,10 @@
   line-height: 1.2;
   margin: 32px auto 64px;
 }
+
+@media screen and (max-width:635px) {
+  .header__subtitle {
+    font-size: 5vw;
+    margin-top: 16px;
+  }
+}

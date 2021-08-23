@@ -1,3 +1,6 @@
 .header__image {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
   filter: grayscale(100%);
 }

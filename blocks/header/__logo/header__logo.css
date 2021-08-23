@@ -1,0 +1,7 @@
+.header__logo {
+  max-width: 271px;
+  min-width: 200px;
+  width: calc(100%/2);
+  display: block;
+  margin: 0 auto;
+}
