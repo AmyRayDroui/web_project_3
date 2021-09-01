@@ -2,10 +2,16 @@
 @import url(../vendor/Inter.css);
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__wrapper/page__wrapper.css);
+@import url(../blocks/page/__wrapper-element/page__wrapper-element.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__image/header__image.css);
+
+@import url(../blocks/introduction/introduction.css);
+@import url(../blocks/introduction/__title/introduction__title.css);
+@import url(../blocks/introduction/__quote/introduction__quote.css);
+@import url(../blocks/introduction/__artist/introduction__artist.css);
+@import url(../blocks/introduction/__text/introduction__text.css);
