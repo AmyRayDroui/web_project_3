@@ -1,0 +1,6 @@
+.city-card__artist {
+  grid-area: card-artist;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

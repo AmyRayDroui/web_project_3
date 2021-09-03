@@ -1,0 +1,7 @@
+.city-card__text {
+  grid-area: card-text;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0 ;
+}

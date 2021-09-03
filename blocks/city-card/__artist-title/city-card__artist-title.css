@@ -1,0 +1,9 @@
+.city-card__artist-title {
+  color: #AAA;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+}

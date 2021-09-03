@@ -1,0 +1,12 @@
+.city-card__button {
+  display: flex;
+  width: 248px;
+  height: 48px;
+  background-color: #0278FE;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0 ;
+}

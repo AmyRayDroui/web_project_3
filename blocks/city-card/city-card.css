@@ -1,0 +1,33 @@
+.city-card {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  grid-template-rows: min-content min-content  1fr;
+  grid-template-areas:
+    "card-title card-artist"
+    "card-image card-text"
+    "card-button card-text";
+  grid-gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width:900px) {
+  .city-card {
+    grid-column-gap: 28px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .city-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr min-content  min-content;
+    grid-template-areas:
+    "card-title"
+    "card-artist"
+    "card-image"
+    "card-text"
+    "card-button" ;
+    grid-gap: 30px;
+    margin-bottom: 48px;
+  }
+}

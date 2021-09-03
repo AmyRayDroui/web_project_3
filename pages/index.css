@@ -15,3 +15,17 @@
 @import url(../blocks/introduction/__quote/introduction__quote.css);
 @import url(../blocks/introduction/__artist/introduction__artist.css);
 @import url(../blocks/introduction/__text/introduction__text.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/city-card/city-card.css);
+@import url(../blocks/city-card/__title/city-card__title.css);
+@import url(../blocks/city-card/__artist/city-card__artist.css);
+@import url(../blocks/city-card/__artist-title/city-card__artist-title.css);
+@import url(../blocks/city-card/__artist-name/city-card__artist-name.css);
+@import url(../blocks/city-card/__image/city-card__image.css);
+@import url(../blocks/city-card/__text/city-card__text.css);
+@import url(../blocks/city-card/__paragraph/city-card__paragraph.css);
+@import url(../blocks/city-card/__button/city-card__button.css);

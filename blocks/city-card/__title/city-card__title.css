@@ -1,0 +1,21 @@
+.city-card__title {
+  grid-area: card-title;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  margin: 0;
+}
+
+@media screen and (max-width:850px) {
+  .city-card__title {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .city-card__title {
+    font-size: 32px;
+  }
+}
