@@ -1,0 +1,15 @@
+.invitation__title {
+  align-self: end;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.055;
+  margin: 0;
+}
+
+
+@media screen and (max-width:500px) {
+  .invitation__title {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+}

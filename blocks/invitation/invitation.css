@@ -1,0 +1,25 @@
+.invitation {
+  max-width: 1184px;
+  height: 740px;
+  background-image: url("../../images/invitation-background.jpg");
+  object-fit: fill;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  align-content: center;
+  grid-gap: 32px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+  .invitation {
+    height: 746px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .invitation {
+    height: 254px;
+    grid-gap: 16px;
+  }
+}

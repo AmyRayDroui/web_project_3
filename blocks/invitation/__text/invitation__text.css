@@ -1,0 +1,15 @@
+.invitation__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+}
+
+
+
+@media screen and (max-width:500px) {
+  .invitation__text {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

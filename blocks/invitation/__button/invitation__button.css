@@ -1,18 +1,14 @@
-.city-card__button {
+.invitation__button {
   display: flex;
-  width: 248px;
+  width: 137px;
   height: 48px;
   background-color: #0278FE;
   justify-content: center;
+  justify-self: center;
   align-items: center;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
-  margin: 0 ;
+  margin: 0;
 }
 
-@media screen and (max-width:650px) {
-  .city-card__button {
-    /*width: 100%;*/
-  }
-}
