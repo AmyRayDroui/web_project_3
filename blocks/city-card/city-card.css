@@ -10,12 +10,14 @@
   margin-bottom: 80px;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1050px) {
   .city-card {
+    margin: 0 24px;
     grid-column-gap: 28px;
     margin-bottom: 73px;
   }
 }
+
 
 @media screen and (max-width:650px) {
   .city-card {
@@ -28,6 +30,6 @@
     "card-text"
     "card-button" ;
     grid-gap: 30px;
-    margin-bottom: 48px;
+    margin: 0 0 48px;
   }
 }

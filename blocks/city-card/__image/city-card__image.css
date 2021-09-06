@@ -5,9 +5,9 @@
   background-position: center;
 }
 
+
 @media screen and (max-width:650px) {
   .city-card__image {
-    /*margin-left: -16px;
-    /*width: 100vw;*/
+    margin: 0;
   }
 }

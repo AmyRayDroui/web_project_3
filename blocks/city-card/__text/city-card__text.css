@@ -5,3 +5,11 @@
   line-height: 1.63;
   margin: 0 ;
 }
+
+
+
+@media screen and (max-width:650px) {
+  .city-card__text {
+    margin: 0 16px;
+  }
+}
