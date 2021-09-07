@@ -1,4 +1,6 @@
 .invitation__text {
+  max-width: 200px;
+  justify-self: center;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
