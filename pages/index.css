@@ -34,7 +34,6 @@
 @import url(../blocks/city-card/__button/city-card__button.css);
 
 @import url(../blocks/invitation/invitation.css);
-@import url(../blocks/invitation/__image/invitation__image.css);
 @import url(../blocks/invitation/__container/invitation__container.css);
 @import url(../blocks/invitation/__title/invitation__title.css);
 @import url(../blocks/invitation/__text/invitation__text.css);

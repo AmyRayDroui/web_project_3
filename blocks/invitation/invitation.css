@@ -1,17 +1,35 @@
 .invitation {
+  position: relative;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 100%;
   -webkit-box-align: center;
   align-items: center;
   justify-items: center;
+  object-fit: fill;
+  background-position: center;
   max-width: 1184px;
   min-height: 740px;
   text-align: center;
   margin: 0 auto;
 }
 
+.invitation::before {
+  content: "";
+  background-image: url(../../images/invitation-background.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .7;
+  transition: opacity .4s ease-out;
+}
 
+.invitation:hover::before {
+  opacity: .2;
+}
 
 @media screen and (max-width:768px) {
   .invitation {
