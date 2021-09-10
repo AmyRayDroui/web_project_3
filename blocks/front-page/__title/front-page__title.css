@@ -1,4 +1,4 @@
-.header__title {
+.front-page__title {
   width: 80%;
   font-size: 96px;
   line-height: 1.1;
@@ -7,15 +7,14 @@
 }
 
 @media screen and (max-width:850px) {
-  .header__title {
+  .front-page__title {
     font-size: 12.5vw;
     margin-top: 88px;
   }
 }
 
 @media screen and (max-width:768px) {
-  .header__title {
-    font-size: 12.5vw;
+  .front-page__title {
     margin-top: 50px;
   }
 }

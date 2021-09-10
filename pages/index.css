@@ -6,9 +6,11 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__image/header__image.css);
+
+@import url(../blocks/front-page/front-page.css);
+@import url(../blocks/front-page/__title/front-page__title.css);
+@import url(../blocks/front-page/__subtitle/front-page__subtitle.css);
+@import url(../blocks/front-page/__image/front-page__image.css);
 
 @import url(../blocks/introduction/introduction.css);
 @import url(../blocks/introduction/__title/introduction__title.css);
@@ -19,6 +21,7 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 
+@import url(../blocks/button/button.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/city-card/city-card.css);
 @import url(../blocks/city-card/__title/city-card__title.css);
@@ -30,11 +33,13 @@
 @import url(../blocks/city-card/__paragraph/city-card__paragraph.css);
 @import url(../blocks/city-card/__button/city-card__button.css);
 
-@import url(../blocks/footer/footer.css);
 @import url(../blocks/invitation/invitation.css);
 @import url(../blocks/invitation/__image/invitation__image.css);
 @import url(../blocks/invitation/__container/invitation__container.css);
 @import url(../blocks/invitation/__title/invitation__title.css);
 @import url(../blocks/invitation/__text/invitation__text.css);
 @import url(../blocks/invitation/__button/invitation__button.css);
+
+@import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+

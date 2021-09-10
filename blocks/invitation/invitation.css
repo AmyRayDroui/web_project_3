@@ -6,7 +6,8 @@
   align-items: center;
   justify-items: center;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -14,13 +15,14 @@
 
 @media screen and (max-width:768px) {
   .invitation {
-    height: 746px;
+    min-height: 746px;
   }
 }
 
 @media screen and (max-width:600px) {
   .invitation {
-    height: 254px;
+    min-height: 254px;
     grid-gap: 16px;
+    margin-top: 16px;
   }
 }

@@ -10,7 +10,8 @@
 
 @media screen and (max-width:850px) {
   .city-card__title {
-    font-size: 6vw;
+    font-size: 42px;
+    line-height: 1.09;
   }
 }
 

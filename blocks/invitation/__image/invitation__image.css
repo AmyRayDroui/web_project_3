@@ -4,14 +4,14 @@
   grid-column: 1;
   grid-row: 1;
   z-index: 0;
-  background-image: url(../../../images/invitation-background.jpg);
   object-fit: fill;
   background-size: cover;
   background-position: center;
   opacity: 0.7;
+  transition: opacity .4s ease-out;
 }
 
-.invitation__image:hover {
+.invitation__container:hover + .invitation__image{
   opacity: 0.2;
 }
 

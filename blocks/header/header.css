@@ -1,13 +1,10 @@
 .header {
-  max-width: 984px;
-  min-width: 296px;
-  text-align: center;
   padding-top: 34px;
-  margin: 0 auto;
 }
 
-@media screen and (max-width: 1000px) {
-  .header {
-    width: 100%;
+
+@media screen and (max-width:650px) {
+  .header{
+    padding-top: 20px;
   }
 }

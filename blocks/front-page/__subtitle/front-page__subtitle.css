@@ -1,0 +1,22 @@
+.front-page__subtitle {
+  width: 75%;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 32px auto 64px;
+}
+
+@media screen and (max-width:850px) {
+  .front-page__subtitle {
+    margin-bottom: 36px;
+  }
+}
+
+
+@media screen and (max-width:650px) {
+  .front-page__subtitle {
+    font-size: 5vw;
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+}

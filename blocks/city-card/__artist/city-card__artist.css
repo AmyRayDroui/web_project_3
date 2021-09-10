@@ -5,11 +5,7 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width:1050px) {
-  .city-card__artist {
-    margin: 0 24px;
-  }
-}
+
 
 @media screen and (max-width:650px) {
   .city-card__artist {
